@@ -1,9 +1,5 @@
-import { Component } from "react";
-
-export default class Notification extends Component {
-  render() {
-    return (
-      <p>{this.props.message}</p>
-    );
-  }
+export default function Notification({message}) {
+  return (
+    <p>{message}</p>
+  );
 }
